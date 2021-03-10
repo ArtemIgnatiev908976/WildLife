@@ -177,6 +177,23 @@ hr{
     color: #333333;
 }
 
+.btn2{
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+    border: 2px solid #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-trensform: uppercase;
+    text-decoration: none;
+    transition: background .1s linear, color .3s linear;
+    background-color: orange;
+}
+
+
+
+
 /*slider*/
 .slider {
     width: 100%;
@@ -267,17 +284,17 @@ hr{
     text-transform: uppercase;
 }
 
-.section__title:after {
+/*.section__title:after {*/
 
-    content: '';
-    display: block;
-    width: 90px;
-    height: 3px;
-    margin: 30px auto;
+/*    content: '';*/
+/*    display: block;*/
+/*    width: 90px;*/
+/*    height: 3px;*/
+/*    margin: 30px auto;*/
 
-    background-color: #f38181;
+/*    background-color: #f38181;*/
 
-}
+/*}*/
 
 .section__text {
 
@@ -296,27 +313,27 @@ hr{
 }
 
 .about__item {
-    width: 375px;
-    background-color: #95e1d3;
+    /*width: 375px;*/
+    /*background-color: #95e1d3;*/
     position: relative; /*позиция текста поверх картинки*/
 }
 
-.about__item:hover .about__img {
-    transform: translate3d(-10px, -10px, 0);
+/*.about__item:hover .about__img {*/
+/*    transform: translate3d(-10px, -10px, 0);*/
 
-}
+/*}*/
 
-.about__item:hover .about__img img {
-    opacity: 0.1;
-}
+/*.about__item:hover .about__img img {*/
+/*    opacity: 0.1;*/
+/*}*/
 
-.about__item:hover .about__text {
-    opacity: 1;
-}
+/*.about__item:hover .about__text {*/
+/*    opacity: 1;*/
+/*}*/
 
 
 .about__img {
-    background: linear-gradient(to bottom, #f38181, #fce38a);
+    /*background: linear-gradient(to bottom, #f38181, #fce38a);*/
 
     transition: transform .3s linear;
 }
@@ -328,7 +345,7 @@ hr{
 }
 
 .about__text {
-    opacity: 0; /*скрыть до наведения*/
+    /*opacity: 0; !*скрыть до наведения*!*/
     width: 100%;
     color: #ffffff;
     text-transform: uppercase;
@@ -437,4 +454,33 @@ hr{
     right: 0;
     z-index: 1;
 
+}
+
+
+
+
+.footer {
+    padding: 60px 0 70px;
+}
+.footer__wrapper {
+     display: flex;
+ }
+.wrapper {
+    max-width: 1197px;
+    margin: auto;
+}
+.logo {
+    display: flex;
+}
+.footer-navigation {
+     flex-grow: 1;
+     padding-left: 152px;
+ }
+.layout-3-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.layout-3-column > * {
+    flex-basis: 30%;
 }
