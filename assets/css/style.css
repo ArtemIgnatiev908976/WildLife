@@ -28,6 +28,7 @@ h1{
     font-family: 'Open Sans', sans-serif;
     font-size: 48pt;
     font-weight: 600;
+    color: #CD6326;
 }
 h2{
     margin: 0;
@@ -188,7 +189,7 @@ hr{
     display: inline-block;
     vertical-align: top;
     padding: 8px 30px;
-    border: 2px solid #ffffff;
+    border: 2px solid #CD6326;
     font-size: 14px;
     font-weight: 700;
     color: #ffffff;
@@ -198,8 +199,14 @@ hr{
 }
 
 .btn:hover {
-    background-color: white;
-    color: #333333;
+    background-color: #CD6326;
+    color: #f7f7f7;
+    border: 2px solid #CD6326;
+}
+.btn:active{
+    background-color: #8f5613;
+    color: #f7f7f7;
+    border: 2px solid #8f5613;
 }
 
 .btn2{
@@ -213,9 +220,18 @@ hr{
     text-trensform: uppercase;
     text-decoration: none;
     transition: background .1s linear, color .3s linear;
-    background-color: orange;
+    background-color: #CD6326;
 }
+.btn2:hover {
+    background-color: #e39128;
+    color: #f7f7f7;
 
+}
+.btn2:active{
+    background-color: #8f5613;
+    color: #f7f7f7;
+   
+}
 
 
 
