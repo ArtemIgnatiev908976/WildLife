@@ -135,6 +135,15 @@ hr{
     font-size: 30px;
     font-weight: 700;
     color: #f7f7f7;
+
+}
+
+
+.header__text{
+    margin-right: 500px;
+    font-size: 24pt;
+    font-weight: 400;
+    color: #f7f7f7;
 }
 
 /*займут крайние позиции контейнера*/
