@@ -83,6 +83,14 @@ hr{
     line-height: 1;
 }
 
+.intro__text{
+   width: 274px;
+    height: 108px;
+    text-align: justify;
+}
+
+
+
 .intro_inner {
 
     width: 100%;
@@ -148,7 +156,7 @@ hr{
     position: relative;
     display: inline-block;
     vertical-align: top;
-    margin: 0 15px;
+    margin: 10px 32px;
     color: #f7f7f7;
     text-decoration: none;
     transition: color .2s linear;
@@ -170,7 +178,7 @@ hr{
 }
 
 .nav__link:hover {
-    color: #fce38a;
+    color: #CD6326;
 }
 
 .nav__link:hover:after, .nav__link.active:after {
@@ -179,7 +187,7 @@ hr{
 }
 
 .nav__link.active {
-    /*color: #fce38a;*/
+    color: #e39128;
 
 }
 
@@ -210,9 +218,10 @@ hr{
 }
 
 .btn2{
+    margin-top: 58px;
     display: inline-block;
     vertical-align: top;
-    padding: 8px 30px;
+    padding: 12px 44px;
     border-radius: 5px;
     font-size: 14px;
     font-weight: 700;
@@ -230,7 +239,7 @@ hr{
 .btn2:active{
     background-color: #8f5613;
     color: #f7f7f7;
-   
+
 }
 
 
