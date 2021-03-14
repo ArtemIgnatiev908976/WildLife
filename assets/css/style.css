@@ -611,6 +611,17 @@ font-weight: 300;
      padding-left: 152px;
     padding-top: 36px;
  }
+
+.footer-nav__link{
+    position: relative;
+
+    vertical-align: top;
+
+    color: #f7f7f7;
+    text-decoration: none;
+    transition: color .2s linear;
+
+}
 .layout-3-column {
     display: flex;
     flex-wrap: wrap;
@@ -625,6 +636,7 @@ font-weight: 300;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    cursor: pointer;
 }
 .layout-4-column > * {
     flex-basis: 25%;
